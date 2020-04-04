@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Contact</title>
+    <title>Roohom</title>
     <link rel="icon" href="./images/LOGOicon.png" type="image/x-icon">
-    <style type="text/css">
+    <style>
         a{
             text-decoration: none;     /*去掉a标签的文本的下划线*/
             color:#000;                /*设置a标签文本的字体颜色为黑色*/
@@ -22,17 +22,27 @@
             height:600px;
             border: white dotted 1px;
         }
-        .box3 {
+        .box3{
             position: absolute;
             left: 200px;
             top: 30px;
-            width: 1000px;
-            height: 720px;
+            width: 1300px;
+            height: 3000px;
             background-color: #fff;
             margin-top: 10px;
-            margin-left: 100px;
-            border: white dotted 2px;
-            font-family: 华文中宋,serif;
+            border: white solid 2px;
+            font-family: 华文中宋,sans-serif;
+            font-size: xx-large;
+        }
+        .box4{
+            position: absolute;
+            left: 20px;
+            width: 1250px;
+            height: 100px;
+            background-color: #fff;
+            margin-top: 10px;
+            border-bottom: black solid 1px;
+            font-family: 华文中宋,sans-serif;
         }
         .item1{
             margin-left: 45px;
@@ -43,16 +53,15 @@
             margin-top: -15px;
         }
         body{
-            padding: 0;
-            margin: 0 auto;
+                padding: 0;
+                margin: 0 auto;
         }
-
         #footer {
             height: 40px;
             line-height: 40px;
             position: absolute;
             left: auto;
-            top: 720px;
+            top: 1000px;
             width: 100%;
             text-align: center;
             background: #fff;
@@ -61,7 +70,6 @@
             font-size: 12px;
             letter-spacing: 1px;
         }
-
     </style>
 </head>
 <body>
@@ -73,17 +81,14 @@
     <h5 class="item2"><a href="./About me.html">READ ME</a></h5>
     </div>
     <div class="box3">
-    <h1>联系我！</h1>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p>我的邮件地址:roohom@qq.com</p>
-        <p>我的Github地址: <a href="https://Github.com/roohom" target="_blank">Github</a></p>
-        <p>我的CSDN博客地址: <a href="https://blog.csdn.net/qq_39161804" target="_blank">CSDN</a> </p>
+        <div class="box4">
+            <p><a href="./_posts/NOTE.html" target="_blank">前端学习笔记</a></p>
+        </div>
     </div>
+
     <div id="footer">
         Copyright © 2020 roohom. All rights reserved.
     </div>
+
 </body>
 </html>
